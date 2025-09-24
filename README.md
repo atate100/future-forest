@@ -99,6 +99,8 @@
       font-size: 0.9rem;
       padding: .4rem .9rem;
       border-radius: .6rem;
+      width: auto;
+      min-width: 120px;
     }
 
     footer { border-top: 1px solid #d4d4d8; padding: 2rem 0 4rem 0; text-align: center; background: rgba(255,255,255,0.9); }
@@ -212,6 +214,7 @@
   <footer role="contentinfo">
     <div class="wrap">
       <p><strong>Future Forest: Digital Echoes</strong> by Amenda Tate. <a href="https://www.AmendaTate.com">AmendaTate.com</a></p>
+      <p><a href="https://www.instagram.com/futureforest" target="_blank" rel="noopener">Follow us on Instagram</a></p>
       <p><small>© <span id="year"></span> Amenda Tate</small></p>
     </div>
   </footer>
@@ -219,8 +222,3 @@
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</body>
-</html>
-
