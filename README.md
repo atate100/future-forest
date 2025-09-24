@@ -51,8 +51,11 @@
     .title-forest { font-family: Eurostile, "Eurostile Next", "Microgramma", Futura, system-ui, sans-serif; font-weight: 700; font-size: clamp(2rem, 4vw, 3.5rem); text-transform: uppercase; margin: .5rem 0 0 0; color: #ffffff; }
     .title-echoes { font-family: "Colonna MT", "Cinzel", Georgia, serif; font-weight: 700; font-size: clamp(1.2rem, 2.2vw, 2rem); text-transform: uppercase; letter-spacing: .15em; margin: 0; color: #ffffff; }
 
-    nav[aria-label="Primary"] { margin-top: 1rem; }
-    nav a { display: inline-block; padding: .5rem .8rem; border-radius: .6rem; text-decoration: none; font-weight: 600; color: #ffffff; }
+    nav[aria-label="Primary"] {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    nav a { display: inline-block; margin: 0 .5rem; padding: .5rem .8rem; border-radius: .6rem; text-decoration: none; font-weight: 600; color: #ffffff; }
     nav a:hover, nav a:focus-visible { background: var(--accent); color: var(--accent-contrast); }
 
     section { padding: 2rem 0; border-top: 1px solid #e5e7eb; }
@@ -60,7 +63,7 @@
 
     h2 { font-size: clamp(1.4rem, 2.5vw, 2rem); margin-bottom: .5rem; color: var(--accent2); }
     h3 { font-size: 1.3rem; margin: .5rem 0; }
-    p, li { max-width: 70ch; }
+    p, li { max-width: 85ch; }
 
     .card { background: var(--card); border-radius: 1rem; padding: 1rem; }
 
@@ -111,8 +114,8 @@
     </div>
     <nav aria-label="Primary" class="wrap">
       <a href="#about">About</a>
-      <a href="#accessibility">Accessibility</a>
       <a href="#schedule">Schedule</a>
+      <a href="#accessibility">Accessibility</a>
       <a href="#contribute">Contribute</a>
       <a href="#newsletter">Newsletter</a>
     </nav>
@@ -216,3 +219,4 @@
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+
